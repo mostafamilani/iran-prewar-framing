@@ -1,0 +1,21 @@
+rank,pdf_title,pdf_subscribers,handle,candidate_handles,status
+1,خبرفوری,1074530,khabarfori,,matched_prior_audit
+2,اخبارموثق,734888,akhbaremovasagh_ir,,verified_telegram
+3,کانال خبری پارسینه,969618,Parsinehnews,parsine,matched_public_page
+4,خبرهای فوری مهم 🔖,1141228,Khabar_Fouri,,matched_prior_audit
+5,روز نیوز | خبر فوری,276855,khabar75,ruz_news1,matched_public_page
+6,کانال اخبارفوری خبرفوری,4241261,KH_B2,FO_RK,verified_historical_handle_channel_id_1350986218
+7,گیلین,634000,gilin_gilin,gilin,verified_telegram_same_channel_id
+8,کانال رسمی صابرین نیوز,568247,saberin_ir,saberinfa,user_selected_larger_channel
+9,خبرفردا,1063253,khabarfarda_ir,,matched_prior_audit
+10,خبر از ما | اخبار فوری جنگ,179900,KhabarAzMa,,matched_public_page
+11,اخبارفوری و مهم,563166,akhbare_moheem,,matched_prior_audit
+12,پایگاه خبری انتخاب,203588,entekhab_ir,,matched_prior_audit
+13,Iran International ایران اینترنشنال,1333101,IranintlTV,,matched_prior_audit
+14,Vahid Online وحید آنلاین,1348929,VahidOnline,,matched_prior_audit
+15,خبرفوری | اخبارجنگ فوری آمریکا,1189457,khabarehir,,matched_prior_audit
+16,خبر ویژه,170705,khabarevijh,,verified_telegram_exact_title
+17,خبرهای فوری و مهم,245162,khabarforui,akhbarfouri,matched_public_page
+18,AVATODAY,246806,javanmardi77,avatoday,matched_public_post
+19,تلویزیون منوتو,409311,ManotoTV,,matched_prior_audit
+20,اخبار جنگ | خبر فوری,233006,tkhbr,khabar_brouz;khabarforieh;khabare_furie,user_larger_similar_name_candidate_pdf_identity_unconfirmed

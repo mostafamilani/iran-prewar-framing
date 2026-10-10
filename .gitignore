@@ -1,0 +1,11 @@
+configs/.env
+.env
+configs/sessions/
+*.session
+*.session-*
+__pycache__/
+*.pyc
+.venv/
+.vendor/
+archive/
+data/processed/

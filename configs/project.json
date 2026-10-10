@@ -1,0 +1,8 @@
+{
+  "dataset_name": "prewar_2025-11-28_2026-02-28",
+  "start_utc": "2025-11-28T00:00:00+00:00",
+  "end_utc_exclusive": "2026-02-28T00:00:00+00:00",
+  "war_start_date": "2026-02-28",
+  "channel_manifest": "configs/approved_channels.csv",
+  "raw_data_dir": "data/raw/prewar_2025-11-28_2026-02-28"
+}

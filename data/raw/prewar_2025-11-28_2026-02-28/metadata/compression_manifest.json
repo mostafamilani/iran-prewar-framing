@@ -1,0 +1,122 @@
+[
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/IranintlTV_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "32be254342e4f5082429572f2cfc57a0b304d8a4a015b7b88e93993333da9e20",
+    "uncompressed_bytes": 131192335,
+    "compressed_bytes": 14126552
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/KH_B2_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "b511fcf0bc75934751ef75a64e8d634e790a494f996156de0f711bc44bb9248d",
+    "uncompressed_bytes": 107153509,
+    "compressed_bytes": 9643884
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/KhabarAzMa_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "965b8f6e051eb6de47708e739294c011fa08f3fef49d6ba95af4f80d828cdd22",
+    "uncompressed_bytes": 46003869,
+    "compressed_bytes": 4554939
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/Khabar_Fouri_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "f4ec3bf8c9c8fdfa9eb727b0eae7e74f87b0c09dffa67db4192bfd11856861dc",
+    "uncompressed_bytes": 83564774,
+    "compressed_bytes": 9369791
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/ManotoTV_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "71f97fc2dd668a20eac172dddbdf843af6c5c01fd9190066b15738b3ed57138a",
+    "uncompressed_bytes": 30619556,
+    "compressed_bytes": 2965633
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/Parsinehnews_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "7adb612ac54438dfee841ea98f8aaa213598d30dee4b5045202614e8f6bebd73",
+    "uncompressed_bytes": 43676110,
+    "compressed_bytes": 4873152
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/VahidOnline_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "9f24220e2b0929b460261ce60a3a87a319025b7cac9707a13f517d6fbfa3fb3a",
+    "uncompressed_bytes": 20555767,
+    "compressed_bytes": 2233571
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/akhbare_moheem_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "d4f63c60fc94da63a6c6a4d4f8d1e9055304ac4c854b4bf2c31fc3891581f1e9",
+    "uncompressed_bytes": 104704304,
+    "compressed_bytes": 9962038
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/akhbaremovasagh_ir_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "113d8b5dc1c7e11f80c0522941690215c1ce5b4389ebe64cbbd6ba36440ef05e",
+    "uncompressed_bytes": 115560578,
+    "compressed_bytes": 11123842
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/entekhab_ir_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "5356cb7b120f551de8a77cacc9349a79caecb44357857bc181c6edb3342ac01c",
+    "uncompressed_bytes": 46407572,
+    "compressed_bytes": 4974865
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/gilin_gilin_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "7a5f1f78d2f1a99f6f8d407e12802634f9eca63cb98644489882b83ef2bdce6b",
+    "uncompressed_bytes": 49144956,
+    "compressed_bytes": 4394312
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/javanmardi77_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "725542288c9eb338f536add3dce5fd2adab337cc0efdaacea8ebc01f2a2ff93a",
+    "uncompressed_bytes": 54777071,
+    "compressed_bytes": 5711856
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/khabar75_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "de06893d3cd6667531425420d896dac2bbb349c6e48f61f5c1fd79e48ca5b31d",
+    "uncompressed_bytes": 31603157,
+    "compressed_bytes": 3033648
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/khabarehir_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "5b8eb09a4105b08cb901c518f06f03e976795f18a5d85fd20d96b5a1ee0c0bc2",
+    "uncompressed_bytes": 85791156,
+    "compressed_bytes": 7945264
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/khabarevijh_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "01a21d2281d2328d296d9d1e57832d4c371cc7de79522b5332683b2c1c9a4c64",
+    "uncompressed_bytes": 64931362,
+    "compressed_bytes": 6357673
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/khabarfarda_ir_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "cf6d4416f3fe74ad0a0b991cd17683b123d7fc4f0049a9bf93a10d758ae8e901",
+    "uncompressed_bytes": 66314246,
+    "compressed_bytes": 5841832
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/khabarfori_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "beb4ad3fe3346a7e99adcdd91e2bb693c5b1b71f735c804057a65b2815e267a4",
+    "uncompressed_bytes": 66829417,
+    "compressed_bytes": 6227500
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/khabarforui_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "c1714925251e61de594ed1447ee8eb353f5be1d561afb6c2003156fa7a73ab77",
+    "uncompressed_bytes": 41630264,
+    "compressed_bytes": 3907736
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/saberin_ir_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "18c81c94ff9e7bd33e1f3fff1f93dd3e4fa9f2553fa6d9e35f096ae22299b911",
+    "uncompressed_bytes": 22963057,
+    "compressed_bytes": 2444785
+  },
+  {
+    "file": "data/raw/prewar_2025-11-28_2026-02-28/csv/tkhbr_2025-11-28_2026-02-28.csv.gz",
+    "uncompressed_sha256": "f206e736f20eccf266df7ca5f8ddedfbeba5df607e4845977bb0f276ad247176",
+    "uncompressed_bytes": 12488119,
+    "compressed_bytes": 1110226
+  }
+]
