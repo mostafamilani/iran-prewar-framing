@@ -50,32 +50,7 @@ The [post files](data/raw/prewar_2025-11-28_2026-02-28/csv/) contain all **157,6
 
 Each `.csv.gz` is a losslessly compressed CSV. Compression is used because several original CSVs exceed [GitHub's regular file-size limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Decompression reproduces the original CSV byte-for-byte; original file hashes are recorded in `metadata/compression_manifest.json`.
 
-Decompress all files with Python (no additional packages needed):
-
-```python
-from pathlib import Path
-import gzip
-import shutil
-
-folder = Path("data/raw/prewar_2025-11-28_2026-02-28/csv")
-for path in folder.glob("*.csv.gz"):
-    with gzip.open(path, "rb") as source, path.with_suffix("").open("wb") as output:
-        shutil.copyfileobj(source, output)
-```
-
-Or read a compressed CSV directly with Python:
-
-```python
-import csv
-import gzip
-import sys
-
-csv.field_size_limit(sys.maxsize)
-path = "data/raw/prewar_2025-11-28_2026-02-28/csv/IranintlTV_2025-11-28_2026-02-28.csv.gz"
-with gzip.open(path, "rt", encoding="utf-8-sig", newline="") as source:
-    for post in csv.DictReader(source):
-        print(post["date"], post["text"])
-```
+Decompress a `.csv.gz` file with any gzip-compatible tool to obtain the original CSV.
 
 Each row is one Telegram message, including media-only messages. Album messages are linked through `grouped_id`. CSVs retain Persian text and multiline captions; message and channel IDs; publication, edit, and collection times; post links; views, forwards, and reply counts; authors/senders; reactions; forwarding origins; reply relationships; text entities; buttons; media/file properties; and complete raw message metadata where available. Complex fields are JSON strings. Files use UTF-8 with BOM and chronological ordering.
 
@@ -89,32 +64,6 @@ Usernames can change or be reassigned. The former `FO_RK` channel was traced to 
 
 Deleted posts cannot be recovered. Text edits and engagement counters reflect collection time, not necessarily their prewar values. Media metadata is included, but media binaries and separate comment threads were not downloaded. Forwarded or repeated content across channels is retained.
 
-## Downloading posts
+## Research progress
 
-Use Python 3.10 or newer. From the repository root, create a virtual environment and install the dependency:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-cp configs/env.example configs/.env
-```
-
-Fill `TELEGRAM_API_ID` and `TELEGRAM_API_HASH` in `configs/.env` with your own Telegram API credentials. `TELEGRAM_SESSION` is a local session basename stored under `configs/sessions/`. Credentials and sessions are excluded from Git. Optional model-API entries in the template belong to future analysis work and are not needed by the downloader.
-
-Log in interactively:
-
-```bash
-python code/telegram_login.py
-```
-
-Download to a new directory to preserve the published collection:
-
-```bash
-python code/download_telegram_posts.py \
-  --start 2025-11-28 --end 2026-02-28 \
-  --channels-file configs/approved_channels.csv --csv \
-  --out-dir data/raw/prewar_refresh_2025-11-28_2026-02-28
-```
-
-`--start` is inclusive and `--end` is exclusive, in UTC. The manifest is the default channel list; repeated `--channel HANDLE` arguments can select individual channels. The downloader creates plain CSVs in `csv/`, JSONL files in `jsonl/`, and progress reports in `metadata/`. Dataset paths are resolved from the repository root, so scripts can also be invoked from another working directory using an absolute script path.
+The 20-channel collection is complete and validated. Systematic framing coding of the active prewar collection has not yet begun. The next stage is to define coding units, refine the four-function codebook, and validate it on a pilot sample spanning multiple channels.
